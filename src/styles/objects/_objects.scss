@@ -1,0 +1,26 @@
+.o-container {
+	max-width: var(--container-width);
+	margin: 0 auto;
+	padding: 0 var(--container-offset);
+}
+
+.o-page__wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.o-visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+.o-row {
+	display: flex;
+}
+
+.o-col {
+	flex-basis: 100%;
+}
